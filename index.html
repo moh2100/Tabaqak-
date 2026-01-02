@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabaqak - طبقك</title>
+  <link rel="icon" type="image/png" href="/favicon_t.png">
+
+  <!-- Performance: DNS Prefetch & Preconnect -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="تطبيق طبقك لتوصيل الطعام في النجف الأشرف. اطلب من أفضل المطاعم في النجف والكوفة. توصيل سريع ودفع عند الاستلام.">
+  <meta name="keywords"
+    content="طبقك, توصيل طعام, النجف, الكوفة, مطاعم, توصيل سريع, Tabaqak, food delivery, Najaf, Iraq">
+  <meta name="author" content="Mohammed Shamkhi">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://tabaqak.com/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tabaqak.com/">
+  <meta property="og:title" content="Tabaqak - طبقك | أطيب أكل يوصل لباب بيتك">
+  <meta property="og:description"
+    content="تطبيق طبقك لتوصيل الطعام في النجف الأشرف. اطلب من أفضل المطاعم في النجف والكوفة. توصيل سريع ودفع عند الاستلام.">
+  <meta property="og:image" content="https://h.top4top.io/p_3648u9py01.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://tabaqak.com/">
+  <meta property="twitter:title" content="Tabaqak - طبقك | أطيب أكل يوصل لباب بيتك">
+  <meta property="twitter:description"
+    content="تطبيق طبقك لتوصيل الطعام في النجف الأشرف. اطلب من أفضل المطاعم في النجف والكوفة. توصيل سريع ودفع عند الاستلام.">
+  <meta property="twitter:image" content="https://h.top4top.io/p_3648u9py01.jpg">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Outfit:wght@700;900&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#fff7ed',
+              100: '#ffedd5',
+              200: '#fed7aa',
+              300: '#fdba74',
+              400: '#fb923c',
+              500: '#f97316', // Primary Orange
+              600: '#ea580c',
+              700: '#c2410c',
+              800: '#9a3412',
+              900: '#7c2d12',
+            }
+          },
+          fontFamily: {
+            sans: ['Cairo', 'sans-serif'],
+          },
+          animation: {
+            blob: "blob 7s infinite",
+          },
+          keyframes: {
+            blob: {
+              "0%": {
+                transform: "translate(0px, 0px) scale(1)",
+              },
+              "33%": {
+                transform: "translate(30px, -50px) scale(1.1)",
+              },
+              "66%": {
+                transform: "translate(-20px, 20px) scale(0.9)",
+              },
+              "100%": {
+                transform: "translate(0px, 0px) scale(1)",
+              },
+            },
+          },
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #f97316;
+      /* Brand 500 */
+      border-radius: 5px;
+      border: 2px solid #f9fafb;
+      /* Gray 50 */
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #ea580c;
+      /* Brand 600 */
+    }
+
+    /* Selection Color */
+    ::selection {
+      background-color: #f97316;
+      color: white;
+    }
+
+    /* Glassmorphism Utility */
+    .glass {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    /* Font Smoothing */
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Animation Keyframes */
+    @keyframes shine {
+      100% {
+        transform: translateX(100%);
+      }
+    }
+
+    .animate-shine {
+      animation: shine 1.5s infinite;
+    }
+  </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.1",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0"
+  }
+}
+</script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
